@@ -1,0 +1,23 @@
+name: wiki_assistant_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10.0 # 根据您的项目实际需求调整Python版本
+  - pip
+  - fastapi>=0.95.0
+  - uvicorn>=0.22.0
+  - pydantic>=2.0.0
+  - sqlalchemy>=2.0.0
+  - requests>=2.31.0
+  - markdown>=3.5.1
+  - beautifulsoup4>=4.12.0
+  - python-docx>=0.8.11
+  - chromadb
+  - numpy>=1.20.0
+  - python-dotenv>=1.0.0
+  - pytest>=7.4.3
+  - python-multipart>=0.0.6
+
+  # 如果您需要sentence-transformers，请取消注释并添加
+  # - sentence-transformers>=2.2.0
